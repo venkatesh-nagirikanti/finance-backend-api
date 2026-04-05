@@ -11,7 +11,7 @@ A simple Finance Management Backend built using FastAPI and SQLAlchemy.
 
 
 **Teach** **Stack**
-**. Python 
+. Python 
 . Fast API
 . SQLAlchemy 
 . SQLite
@@ -26,7 +26,7 @@ A simple Finance Management Backend built using FastAPI and SQLAlchemy.
 
 
 **Run** **Project**
-**uvicorn main:app --reload 
+uvicorn main:app --reload 
 
 open:
 http://127.0.0.1:8000/docs 
@@ -40,6 +40,6 @@ http://127.0.0.1:8000/docs
 . Get /dashboard -> Summary
 
 
-Author 
+**Author** 
 Venkatesh.Nagirikanti
 
