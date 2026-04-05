@@ -1,45 +1,37 @@
-**Finance** **Backend** **API** 
+Finance Backend API
 
 A simple Finance Management Backend built using FastAPI and SQLAlchemy.
 
-**Features** 
-. Create Users 
-. Add Income & Expense Records
-. Filter Records(income / expense)
-. Dashboard Summary(total income,expense, balance)
-. Role-based Access(Admin/Viewer) 
+Features
+Create users
+Add income and expense records
+Filter records (income / expense)
+Dashboard summary (total income, total expense, balance)
+Role-based access (Admin / Viewer)
 
+Tech Stack
+Python
+FastAPI
+SQLAlchemy
+SQLite
 
-**Teach** **Stack**
-. Python 
-. Fast API
-. SQLAlchemy 
-. SQLite
+Project Structure
+main.py – Entry point
+models/ – Database models
+routes/ – API routes
+database/ – Database connection
 
+Run the Project
+uvicorn main:app --reload
+Open in browser:
+http://127.0.0.1:8000/docs
 
-**Project** **Structure**
-. main.py/ -> Entry point
-. models/ -> Database models 
-. routes/ -> API routes
-. database/ -> DB Connection 
+API Endpoints
+POST /users – Create user
+GET /users – Get users
+POST /records – Create record
+GET /records – Get records
+GET /dashboard – Get summary
 
-
-
-**Run** **Project**
-uvicorn main:app --reload 
-
-open:
-http://127.0.0.1:8000/docs 
-
-
-**API** **Endpoints**
-. POST /users -> Create user
-. GET /users  -> Get users 
-. POST /records -> Create record 
-. Get /records -> Get records 
-. Get /dashboard -> Summary
-
-
-**Author** 
-Venkatesh.Nagirikanti
-
+Author
+Venkatesh N
