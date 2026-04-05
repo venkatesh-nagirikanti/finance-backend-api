@@ -16,10 +16,10 @@ A simple Finance Management Backend built using FastAPI and SQLAlchemy.
 - SQLite
 
 ## Project Structure
-main.py – Entry point
-models/ – Database models
-routes/ – API routes
-database/ – Database connection
+- main.py – Entry point
+- models/ – Database models
+- routes/ – API routes
+- database/ – Database connection
 
 ## Run the Project
 uvicorn main:app --reload
